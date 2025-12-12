@@ -28,8 +28,6 @@ app.post('/users',(req,res)=>{
     });
 });
 
-
-
 app.put("/users/:id", (req, res) => {
   const userId = parseInt(req.params.id);
   const updatedData = req.body;
